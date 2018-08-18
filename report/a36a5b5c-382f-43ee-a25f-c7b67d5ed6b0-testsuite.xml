@@ -1,0 +1,83 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1534577846985" stop="1534577847024">
+  <name>test_all</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1534577846985" status="passed" stop="1534577846988">
+      <name>Test_allure.test_al[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="17304-MainThread"/>
+        <label name="host" value="LAPTOP-NJ1CSL3A"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534577846988" status="passed" stop="1534577846988">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments>
+            <attachment source="8a0a3de4-d9f0-4018-8c02-1489a2e6df5d-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1534577846991" status="failed" stop="1534577847020">
+      <name>Test_allure.test_al[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;test_all.Test_allure object at 0x00000200B182C198&gt;, a = 2
+
+    @pytest.mark.parametrize("a", [1, 2, 3])
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    @allure.step('我是测试步骤001')
+    def test_al(self, a):
+        allure.attach('描述', '我是测试步骤001的描述～～～')
+&gt;       assert a != 2
+E       assert 2 != 2
+
+Scripts\test_all.py:9: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="17304-MainThread"/>
+        <label name="host" value="LAPTOP-NJ1CSL3A"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534577846992" status="failed" stop="1534577846992">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments>
+            <attachment source="75b91b23-a94d-401b-ba88-31485f821763-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1534577847023" status="passed" stop="1534577847024">
+      <name>Test_allure.test_al[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="17304-MainThread"/>
+        <label name="host" value="LAPTOP-NJ1CSL3A"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1534577847024" status="passed" stop="1534577847024">
+          <name>我是测试步骤001</name>
+          <title>我是测试步骤001</title>
+          <attachments>
+            <attachment source="ac314c8f-a260-4869-adbf-dfc60fdb8e15-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

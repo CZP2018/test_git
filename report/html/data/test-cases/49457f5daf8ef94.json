@@ -1,0 +1,91 @@
+{
+  "uid" : "49457f5daf8ef94",
+  "name" : "Test_allure.test_al[3]",
+  "fullName" : "test_all.Test_allure.test_al[3]",
+  "historyId" : "2118da91f65a1b40d7017df33d300a4d",
+  "time" : {
+    "start" : 1534575475761,
+    "stop" : 1534575475762,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "我是测试步骤001",
+      "time" : {
+        "start" : 1534575475762,
+        "stop" : 1534575475762,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f818952bfe013116",
+        "name" : "描述",
+        "source" : "f818952bfe013116.txt",
+        "type" : "text/plain",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NJ1CSL3A"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "12244-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_all"
+  }, {
+    "name" : "testClass",
+    "value" : "test_all"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_allure.test_al[3]"
+  }, {
+    "name" : "package",
+    "value" : "test_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49457f5daf8ef94.json",
+  "parameterValues" : [ ]
+}
